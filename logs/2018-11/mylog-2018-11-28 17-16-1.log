@@ -1,0 +1,4 @@
+17:16:01.104 [scheduling-1] INFO  com.example.demo.common.TestTask.runCurrent(TestTask.java:31) - 2018-11-28 17:16:01 quartz is running...
+17:16:10.754 [Thread-3] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'taskScheduler'
+17:16:10.756 [Thread-3] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+17:16:10.814 [Thread-3] INFO  com.example.demo.common.UserListener.contextDestroyed(UserListener.java:28) - ServletContext 上下文销毁

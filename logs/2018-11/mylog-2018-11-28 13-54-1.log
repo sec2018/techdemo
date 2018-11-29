@@ -1,0 +1,1 @@
+13:55:15.591 [main] TRACE org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:82) - Searching for key 'logging.exception-conversion-word' in PropertySource 'servletConfigInitParams'

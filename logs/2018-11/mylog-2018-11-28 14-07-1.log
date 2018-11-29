@@ -1,0 +1,2 @@
+14:07:42.677 [Thread-3] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+14:07:42.736 [Thread-3] INFO  com.example.demo.common.UserListener.contextDestroyed(UserListener.java:26) - ServletContext 上下文销毁

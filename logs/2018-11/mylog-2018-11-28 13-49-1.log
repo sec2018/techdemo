@@ -1,0 +1,21 @@
+13:49:53.669 [main] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on dell-Precision-7820-Tower with PID 22136 (/home/wangzhenjiang/eclipse-workspace/demo/target/classes started by wangzhenjiang in /home/wangzhenjiang/eclipse-workspace/demo)
+13:49:53.675 [main] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+13:49:54.287 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+13:49:54.302 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+13:49:54.307 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+13:49:54.308 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet Engine: Apache Tomcat/9.0.12
+13:49:54.315 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+13:49:54.366 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+13:49:54.366 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 663 ms
+13:49:54.392 [main] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration(ServletRegistrationBean.java:186) - Servlet dispatcherServlet mapped to [/]
+13:49:54.395 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:49:54.396 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:49:54.396 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'formContentFilter' to: [/*]
+13:49:54.396 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'requestContextFilter' to: [/*]
+13:49:54.396 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:261) - Mapping filter: 'userFilter' to urls: [/*]
+13:49:54.410 [main] INFO  com.example.demo.common.UserFilter.init(UserFilter.java:25) - ------------>> init
+13:49:54.557 [main] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+13:49:54.668 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+13:49:54.672 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Using a shared selector for servlet write/read
+13:49:54.681 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+13:49:54.683 [main] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 1.253 seconds (JVM running for 1.653)

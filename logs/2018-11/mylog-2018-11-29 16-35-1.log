@@ -1,0 +1,43 @@
+16:35:00.000 [scheduling-1] INFO  com.example.demo.common.TestTask.runCurrent(TestTask.java:33) - 2018-11-29 16:35:00 quartz is running...
+16:35:02.271 [Thread-3] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'taskScheduler'
+16:35:02.273 [Thread-3] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+16:35:02.345 [Thread-3] INFO  com.example.demo.common.UserListener.contextDestroyed(UserListener.java:28) - ServletContext 上下文销毁
+16:35:05.787 [main] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on dell-Precision-7820-Tower with PID 38990 (/home/wangzhenjiang/eclipse-workspace/demo/target/classes started by wangzhenjiang in /home/wangzhenjiang/eclipse-workspace/demo)
+16:35:05.789 [main] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+16:35:06.712 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$df7f4995] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:35:07.016 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+16:35:07.029 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+16:35:07.034 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+16:35:07.034 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet Engine: Apache Tomcat/9.0.12
+16:35:07.041 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16:35:07.094 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+16:35:07.094 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 1265 ms
+16:35:07.576 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:35:07.576 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+16:35:07.576 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:35:07.576 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'formContentFilter' to: [/*]
+16:35:07.577 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'requestContextFilter' to: [/*]
+16:35:07.577 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'httpTraceFilter' to: [/*]
+16:35:07.577 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:261) - Mapping filter: 'userFilter' to urls: [/*]
+16:35:07.577 [main] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration(ServletRegistrationBean.java:186) - Servlet dispatcherServlet mapped to [/]
+16:35:07.593 [main] INFO  com.example.demo.common.UserListener.contextInitialized(UserListener.java:19) - ServletContext 上下文初始化
+16:35:07.598 [main] INFO  com.example.demo.common.UserFilter.init(UserFilter.java:25) - ------------>> init
+16:35:07.845 [main] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+16:35:08.164 [main] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'taskScheduler'
+16:35:08.194 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init>(EndpointLinksResolver.java:59) - Exposing 2 endpoint(s) beneath base path '/actuator'
+16:35:08.272 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+16:35:08.276 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Using a shared selector for servlet write/read
+16:35:08.285 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+16:35:08.288 [main] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.751 seconds (JVM running for 3.144)
+16:35:12.295 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:35:12.295 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:521) - Initializing Servlet 'dispatcherServlet'
+16:35:12.305 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:543) - Completed initialization in 10 ms
+16:35:12.321 [http-nio-8080-exec-1] INFO  com.example.demo.common.UserFilter.doFilter(UserFilter.java:33) - ------------>>> doFilter
+16:35:13.349 [http-nio-8080-exec-2] INFO  com.example.demo.common.UserFilter.doFilter(UserFilter.java:33) - ------------>>> doFilter
+16:35:20.001 [scheduling-1] INFO  com.example.demo.common.TestTask.runCurrent(TestTask.java:33) - 2018-11-29 16:35:20 quartz is running...
+16:35:20.839 [http-nio-8080-exec-3] INFO  com.example.demo.common.UserFilter.doFilter(UserFilter.java:33) - ------------>>> doFilter
+16:35:25.857 [http-nio-8080-exec-5] INFO  com.example.demo.common.UserFilter.doFilter(UserFilter.java:33) - ------------>>> doFilter
+16:35:25.931 [http-nio-8080-exec-7] INFO  com.example.demo.common.UserFilter.doFilter(UserFilter.java:33) - ------------>>> doFilter
+16:35:35.528 [Thread-3] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'taskScheduler'
+16:35:35.530 [Thread-3] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+16:35:35.598 [Thread-3] INFO  com.example.demo.common.UserListener.contextDestroyed(UserListener.java:28) - ServletContext 上下文销毁

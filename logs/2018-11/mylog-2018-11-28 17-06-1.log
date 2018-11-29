@@ -1,0 +1,25 @@
+17:06:07.423 [main] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on dell-Precision-7820-Tower with PID 10267 (/home/wangzhenjiang/eclipse-workspace/demo/target/classes started by wangzhenjiang in /home/wangzhenjiang/eclipse-workspace/demo)
+17:06:07.429 [main] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+17:06:08.210 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+17:06:08.224 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+17:06:08.228 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+17:06:08.229 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet Engine: Apache Tomcat/9.0.12
+17:06:08.236 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+17:06:08.333 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+17:06:08.333 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 836 ms
+17:06:08.370 [main] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration(ServletRegistrationBean.java:186) - Servlet dispatcherServlet mapped to [/]
+17:06:08.372 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:06:08.372 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:06:08.372 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'formContentFilter' to: [/*]
+17:06:08.372 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'requestContextFilter' to: [/*]
+17:06:08.372 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:261) - Mapping filter: 'userFilter' to urls: [/*]
+17:06:08.382 [main] INFO  com.example.demo.common.UserListener.contextInitialized(UserListener.java:19) - ServletContext 上下文初始化
+17:06:08.384 [main] INFO  com.example.demo.common.UserFilter.init(UserFilter.java:25) - ------------>> init
+17:06:08.558 [main] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+17:06:08.725 [main] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'taskScheduler'
+17:06:08.774 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+17:06:08.780 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Using a shared selector for servlet write/read
+17:06:08.790 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+17:06:08.792 [main] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 1.571 seconds (JVM running for 1.943)
+17:06:20.001 [scheduling-1] INFO  com.example.demo.common.TestTask.runCurrent(TestTask.java:29) - 2018-11-28 17:06:20 quartz is running...
+17:06:40.000 [scheduling-1] INFO  com.example.demo.common.TestTask.runCurrent(TestTask.java:29) - 2018-11-28 17:06:40 quartz is running...

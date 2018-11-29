@@ -1,0 +1,33 @@
+16:33:37.267 [main] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DemoApplication on dell-Precision-7820-Tower with PID 38512 (/home/wangzhenjiang/eclipse-workspace/demo/target/classes started by wangzhenjiang in /home/wangzhenjiang/eclipse-workspace/demo)
+16:33:37.274 [main] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+16:33:38.158 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$22100f3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:33:38.458 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90) - Tomcat initialized with port(s): 8080 (http)
+16:33:38.471 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+16:33:38.475 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+16:33:38.475 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet Engine: Apache Tomcat/9.0.12
+16:33:38.482 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16:33:38.528 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+16:33:38.528 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 1219 ms
+16:33:38.960 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:33:38.961 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+16:33:38.961 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:33:38.961 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'formContentFilter' to: [/*]
+16:33:38.961 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'requestContextFilter' to: [/*]
+16:33:38.961 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:248) - Mapping filter: 'httpTraceFilter' to: [/*]
+16:33:38.961 [main] INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:261) - Mapping filter: 'userFilter' to urls: [/*]
+16:33:38.961 [main] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration(ServletRegistrationBean.java:186) - Servlet dispatcherServlet mapped to [/]
+16:33:38.972 [main] INFO  com.example.demo.common.UserListener.contextInitialized(UserListener.java:19) - ServletContext 上下文初始化
+16:33:38.976 [main] INFO  com.example.demo.common.UserFilter.init(UserFilter.java:25) - ------------>> init
+16:33:39.191 [main] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+16:33:39.515 [main] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'taskScheduler'
+16:33:39.547 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init>(EndpointLinksResolver.java:59) - Exposing 2 endpoint(s) beneath base path '/actuator'
+16:33:39.620 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+16:33:39.625 [main] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Using a shared selector for servlet write/read
+16:33:39.635 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+16:33:39.638 [main] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DemoApplication in 2.619 seconds (JVM running for 3.02)
+16:33:40.001 [scheduling-1] INFO  com.example.demo.common.TestTask.runCurrent(TestTask.java:33) - 2018-11-29 16:33:40 quartz is running...
+16:33:54.466 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:33:54.466 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:521) - Initializing Servlet 'dispatcherServlet'
+16:33:54.476 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:543) - Completed initialization in 10 ms
+16:33:54.492 [http-nio-8080-exec-1] INFO  com.example.demo.common.UserFilter.doFilter(UserFilter.java:33) - ------------>>> doFilter
+16:33:55.219 [http-nio-8080-exec-3] INFO  com.example.demo.common.UserFilter.doFilter(UserFilter.java:33) - ------------>>> doFilter
